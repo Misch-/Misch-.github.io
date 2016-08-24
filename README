@@ -1,0 +1,14 @@
+## Carlin's Website
+
+In development, go away! :) This is my site made with Jekyll and octopress.
+
+## What is Jekyll?
+
+Jekyll is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
+
+## What is Octopress?
+
+Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
+Note: Octopress 3.0 is in development at https://github.com/octopress/octopress
+
+Also credit and thanks to rwwaskk for his [sweet linkedlist theme](https://github.com/rwwaskk/linkedlist) on which my design is based. 
