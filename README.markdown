@@ -12,3 +12,5 @@ Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
 Note: Octopress 3.0 is in development at https://github.com/octopress/octopress
 
 Also credit and thanks to rwwaskk for his [sweet linkedlist theme](https://github.com/rwwaskk/linkedlist) on which my design is based. 
+
+The source that generates these static pages are available in [my source branch](https://github.com/Misch-/Misch-.github.io/tree/source), explicitly for educational purposes and to benefit others non-commercially.
