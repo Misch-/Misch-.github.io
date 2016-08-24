@@ -10,10 +10,10 @@ In development, go away! :) This is my site made with Jekyll and octopress.
 
 [Octopress](https://github.com/octopress/octopress) is a static blogging framework built on top of Jekyll. It uses scripts to build static files to be deployed to a server.
 
-## Additional Credits
+### Additional Credits
 
 Also credit and thanks to rwwaskk for his [sweet linkedlist theme](https://github.com/rwwaskk/linkedlist) on which my design is based. 
 
-## Source
+### Source
 
 The source that generates these static pages are available in [my source branch](https://github.com/Misch-/Misch-.github.io/tree/source), explicitly for educational purposes and to benefit others non-commercially.
