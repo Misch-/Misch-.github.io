@@ -1,6 +1,6 @@
 ## Carlin's Website
 
-In development, go away! :) This is my site made with Jekyll and octopress.
+In development, go away! :) This is my rad site made with Jekyll and octopress.
 
 ## What is Jekyll?
 
@@ -12,7 +12,7 @@ In development, go away! :) This is my site made with Jekyll and octopress.
 
 ### Additional Credits
 
-Also credit and thanks to rwwaskk for his [sweet linkedlist theme](https://github.com/rwwaskk/linkedlist) on which my design is based. 
+Credit and thanks to rwwaskk for his [sweet linkedlist theme](https://github.com/rwwaskk/linkedlist) on which my design is based. 
 
 ### Source
 
