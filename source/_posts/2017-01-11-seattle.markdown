@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Seattle!"
+date: 2017-01-11 23:33:01 -0800
+comments: true
+categories: 
+---
+
+Well it seems you've decided to start from the beginning.
+
+This is my new beginning. I love Seattle so far!
+
+Everything just feels right. 
+
+I flew in and moved into a small apartment in Belltown on November 1st, 2016. 150sq luxurious feet. Still a serious upgrade from Fargo, ND which was basically just a cheap boozy college town. I had a job lined up that I was looking at, but I decided I was going to take some time off in Seattle and enjoy living in the city for the first time. It's been great, I got to do all the touristy things, meet some fun people, climb a couple mountains, alas, the glamour of unemployment has faded and my technical itch is growing again. 
+
+Time to start the interviews! I'm excited to see where I end up. Hopefully I get to start my career as a developer! Working in IT had it's upsides and downsides. I'm looking forward to working more on my long-time goal of becoming an awesome developer!
+
+Apologies to future-me for this sappy post. It's here to stay ;)
