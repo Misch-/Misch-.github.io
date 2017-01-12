@@ -3,11 +3,12 @@
 <body>
     <div id="container">
         <header>
+            <h1 id="mobilename">Carlin Mische</h1>
             <span id='name-helper'>{{ site.author }}</span>
             <canvas   id="myCanvas" width="700" ></canvas>
             {% if site.subtitle %}
                 <br><br>
-                <h1>{{ site.subtitle }}</h1>
+                <h1 id="sitesubtitle">{{ site.subtitle }}</h1>
                 <br>
             {% endif %}    
         </header>
@@ -20,3 +21,19 @@
     </div> <!--! end of #container -->
     {% include bottom_scripts.html %}
 </body>
+
+<style>
+#mobilename {
+    display: none;
+}
+
+@media only screen and (max-width: 741px) {
+    #myCanvas, #sitesubtitle {
+        display: none;
+    }
+    #mobilename {
+        display: block;
+        margin-left: 25px !important;
+    }
+}
+</style>
