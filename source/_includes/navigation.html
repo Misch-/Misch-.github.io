@@ -1,6 +1,18 @@
 <ul class="main-navigation">
-  <li style='float:left;margin-right:7px'><a class='nav' href="{{ root_url }}/">Blog</a></li>
-  <li style='float:left;margin-right:7px'><a class='nav' href="{{ root_url }}/archives">Archives</a></li>
-  <li style='float:left;margin-right:7px'><a class='nav' href="{{ root_url }}/about">About</a></li>
-  <li ><a class='nav' href="{{ root_url }}/contact">Contact</a></li>
+<!--  <li style='float:left;margin-right:12px'><a class='nav' href="{{ root_url }}/">Blog</a></li>
+  <li style='float:left;margin-right:12px'><a class='nav' href="{{ root_url }}/archives">Archives</a></li>
+  <li style='float:left;margin-right:12px'><a class='nav' href="{{ root_url }}/about">About</a></li>
+  <li ><a class='nav' href="{{ root_url }}/contact">Contact</a></li> -->
+  {% assign current = page.url | downcase | split: '/' %}
+  <li style='float:left;margin-right:12px'><a href='{{ root_url }}/'         {% if current[1] == 'index.html' %} class='nav current' {% else %} class='nav' {% endif %}>Blog</a></li>
+  <li style='float:left;margin-right:12px'><a href='{{ root_url }}/archives' {% if current[1] == 'archives' %}   class='nav current' {% else %} class='nav' {% endif %}>Archives</a></li>
+  <li style='float:left;margin-right:12px'><a href='{{ root_url }}/about'    {% if current[1] == 'about' %}      class='nav current' {% else %} class='nav' {% endif %}>About</a></li>
+  <li style='float:left;margin-right:12px'><a href='{{ root_url }}/contact'  {% if current[1] == 'contact' %}    class='nav current' {% else %} class='nav' {% endif %}>Contact</a></li>
 </ul><br><br>
+
+<style>
+.nav.current {
+    color: #B58900 !important;
+}
+</style>
+
