@@ -1,0 +1,20 @@
+---
+layout: home
+title: Contact Me
+date: 1994-02-05
+---
+<header>
+	<h2>Contact Me</h2>
+</header>
+<style>{% include contactform.css %}</style>
+<form id="form" class="topBefore" method="POST">
+  <input id="name" type="text" name="name" placeholder="NAME">
+  <input id="email" type="text" name="email" placeholder="E-MAIL">
+  <textarea id="message" type="text" name="message" placeholder="MESSAGE"></textarea>
+  <input type="text" name="_gotcha" style="display:none" />
+  <input id="submit" type="submit" value="Send!">
+</form>
+<script>
+    var form =  document.getElementById('form');
+    form.setAttribute('action', '//formspree.io/' + 'carlin' + '.' + 'mische' + '@' + 'gmail' + '.' + 'com');
+</script>
