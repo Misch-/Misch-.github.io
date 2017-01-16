@@ -1,10 +1,12 @@
-This is my site/blog made with Jekyll and octopress. Making your own repo with your username.github.io will create github pages site for you as well! It's real nifty.
+## Carlin's Website
 
-### What is Jekyll?
+In development, go away! :) This is my rad site made with Jekyll and octopress.
+
+## What is Jekyll?
 
 [Jekyll](https://github.com/mojombo/jekyll) is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
 
-### What is Octopress?
+## What is Octopress?
 
 [Octopress](https://github.com/octopress/octopress) is a static blogging framework built on top of Jekyll. It uses scripts to build static files to be deployed to a server.
 
