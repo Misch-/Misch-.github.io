@@ -1,4 +1,4 @@
-This is my site/blog made with Jekyll and octopress.
+This is my site/blog made with Jekyll and octopress. Making your own repo with your username.github.io will create github pages site for you as well! It's real nifty.
 
 ### What is Jekyll?
 
