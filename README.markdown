@@ -1,6 +1,4 @@
-## Carlin's Website
-
-In development, go away! :) This is my rad site made with Jekyll and octopress.
+This is my site/blog made with Jekyll and octopress.
 
 ## What is Jekyll?
 
