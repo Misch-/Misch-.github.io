@@ -1,0 +1,32 @@
+---
+layout: home
+title: Photos
+---
+<header>
+	<h2>Photos</h2>
+</header>
+<style>
+article#photos {
+	color: #859900;
+}
+</style>
+<article id="photos">
+	<center>
+	<!--START Juicebox EMBED.-->
+	<script src="../js/jbcore/juicebox.js"></script>
+
+	<script type="text/javascript">
+	new juicebox({
+		containerid:'juicebox-container',
+		baseURL:'../photos/',
+		useFlickr: 'TRUE',
+		flickrUserName: 'carlinmische',
+		backgroundColor:'rgba(0,0,0,.1)',
+		galleryHeight:'400px',
+		galleryWidth:'100%'
+	});
+	</script>
+	<div id="juicebox-container"></div>
+	<!-- END Juicebox EMBED -->
+	</center>
+</article>

@@ -6,6 +6,7 @@
   {% assign current = page.url | downcase | split: '/' %}
   <li style='float:left;margin-right:12px'><a href='{{ root_url }}/'         {% if current[1] == 'index.html' %} class='nav current' {% else %} class='nav' {% endif %}>Blog</a></li>
   <li style='float:left;margin-right:12px'><a href='{{ root_url }}/archives' {% if current[1] == 'archives' %}   class='nav current' {% else %} class='nav' {% endif %}>Archives</a></li>
+  <li style='float:left;margin-right:12px'><a href='{{ root_url }}/photos'  {% if current[1] == 'photos' %}    class='nav current' {% else %} class='nav' {% endif %}>Photos</a></li>
   <li style='float:left;margin-right:12px'><a href='{{ root_url }}/about'    {% if current[1] == 'about' %}      class='nav current' {% else %} class='nav' {% endif %}>About</a></li>
   <li style='float:left;margin-right:12px'><a href='{{ root_url }}/contact'  {% if current[1] == 'contact' %}    class='nav current' {% else %} class='nav' {% endif %}>Contact</a></li>
 </ul><br><br>

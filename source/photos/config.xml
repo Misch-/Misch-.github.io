@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juicebox gallerywidth="300px" galleryheight="300px" backgroundcolor="#222222" textcolor="rgba(255,255,255,1)" thumbframecolor="rgba(255,255,255,.5)" showopenbutton="TRUE" showexpandbutton="TRUE" showthumbsbutton="TRUE" usethumbdots="FALSE" usefullscreenexpand="FALSE">
+	<image imageURL="http://x/sites/default/files/products/071105US.jpg" thumbURL="http://x/sites/default/files/products/071105US.jpg" linkURL="http://x/sites/default/files/products/071105US.jpg" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[]]></caption>
+	</image>
+</juicebox>
+
