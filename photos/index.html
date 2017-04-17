@@ -13,7 +13,7 @@
        More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>About Me |  Carlin Mische</title>
+  <title>Photos |  Carlin Mische</title>
   <meta name="author" content="Carlin Mische">
   
 
@@ -59,8 +59,8 @@
   
   <li style='float:left;margin-right:12px'><a href='/'          class='nav' >Blog</a></li>
   <li style='float:left;margin-right:12px'><a href='/archives'  class='nav' >Archives</a></li>
-  <li style='float:left;margin-right:12px'><a href='/photos'   class='nav' >Photos</a></li>
-  <li style='float:left;margin-right:12px'><a href='/about'          class='nav current' >About</a></li>
+  <li style='float:left;margin-right:12px'><a href='/photos'      class='nav current' >Photos</a></li>
+  <li style='float:left;margin-right:12px'><a href='/about'     class='nav' >About</a></li>
   <li style='float:left;margin-right:12px'><a href='/contact'   class='nav' >Contact</a></li>
 </ul><br><br>
 
@@ -72,22 +72,32 @@
 
 </nav>
             <header>
-	<h2>About Me</h2>
+	<h2>Photos</h2>
 </header>
 <style>
-article#aboutme {
-    color: #859900;
+article#photos {
+	color: #859900;
 }
 </style>
-<article id="aboutme">
-<!--                                              Woohoo, magic numbers! Adds a little less than six years in epoch to the current year to get my age. Y2.1k inbound!-->
-Hi! I'm Carlin Mische. I'm a 23 year old dude from the midwest with a background in linux administration that recently started as a software tester in Seattle.
-<br><br>
+<article id="photos">
+	<center>
+	<!--START Juicebox EMBED.-->
+	<script src="../js/jbcore/juicebox.js"></script>
 
-On my own time, I mostly enjoy meandering around the city, getting drinks, going to meetups, and generally exploring all this new stuff. The outdoorsy stereotype prevalent here suits me pretty well. I have a lot of typical nerdy interests, sci-fi books, amatuer photography, and I consume a massive amount of electronica. If that all sounded rather normal, it was intentional, I'm glad I can at least pretend. 
-<br><br>
-
-If I can do something for you, feel free to shoot me an email!
+	<script type="text/javascript">
+	new juicebox({
+		containerid:'juicebox-container',
+		baseURL:'../photos/',
+		useFlickr: 'TRUE',
+		flickrUserName: 'carlinmische',
+		backgroundColor:'rgba(0,0,0,.1)',
+		galleryHeight:'400px',
+		galleryWidth:'100%'
+	});
+	</script>
+	<div id="juicebox-container"></div>
+	<!-- END Juicebox EMBED -->
+	</center>
 </article>
 
         </div>
